@@ -1,0 +1,30 @@
+nav
+{
+    text-align: center;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+header div
+{
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+a:link 
+{
+    color: white;
+}
+a:visited 
+{
+    color: white;
+    background-color: gray;
+}
+main div
+{
+    padding: 20px 20px 5px 5px;
+    width: 60%;
+}
+nav div:hover{
+    background-color: gray;
+}
