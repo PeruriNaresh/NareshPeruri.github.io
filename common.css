@@ -22,9 +22,23 @@ a:visited
 }
 main div
 {
-    padding: 20px 20px 5px 5px;
+    padding: 20px 20px 30px 20px;
     width: 60%;
 }
 nav div:hover{
     background-color: gray;
+}
+#arrow
+{
+    width: 30px;
+    height: 40px;
+}
+footer
+{  
+    color:brown;
+}
+footer div
+{  
+    background-color: bisque;
+    float: left;
 }
