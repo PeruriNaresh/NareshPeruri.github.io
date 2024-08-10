@@ -1,44 +1,87 @@
-nav
+*
+{    
+    border-radius: 10px;
+    scroll-behavior: smooth;
+}
+body
 {
-    text-align: center;
-    background-color: black;
-    height: 60px;
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    padding: 10px 0px;
     width: 100%;
+    background-color: black;
+    justify-content: space-between; /* Align links to the left and image to the right */
+    align-items: center; /* Vertically center the content */
 }
-header div
-{
-    padding: 20px;
-    float: left;
-    width: 20%;
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
-a:link 
-{
+
+.nav-links li {
+    margin: 0px 10px;
+}
+
+nav a {  
     color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    justify-content: center;
+    transition: all 0.5s;
 }
-a:visited 
+
+nav a:hover {
+    color: rgb(206, 5, 206);
+    font-size: larger;
+    background-color: white;
+}
+
+.nav-image img {
+    height: 50px;
+    border-radius: 50%;
+}
+main>div
 {
-    color: white;
-    background-color: gray;
+    width: 90%;
+    height: 100vh;
+    margin: 50px 70px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 8px rgba(0, 0, 0, 0.375);
+    transition: all 0.7s ease;
+
 }
-main div
+main div:hover
 {
-    padding: 20px 20px 30px 20px;
-    width: 60%;
-}
-nav div:hover{
-    background-color: gray;
-}
-#arrow
-{
-    width: 30px;
-    height: 40px;
+    transform: scale(1.05);
 }
 footer
-{  
-    color:brown;
+{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border: solid black;
+    justify-content: center;
 }
-footer div
-{  
-    background-color: bisque;
-    float: left;
+footer div{
+    color: white;
+    padding: 5px 5px;
+}
+#home
+{
+    background-image: linear-gradient(black,transparent,black),url(./scenary.jpg);
+    background-size: cover,cover;
+    font-weight: 800;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
